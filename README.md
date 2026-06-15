@@ -38,4 +38,7 @@ Getting Started
 Prerequisites
 
 Make sure you have Python and Pygame installed.
-
+To install pygame:
+```
+py -m pip install -r requirements.txt 
+```
