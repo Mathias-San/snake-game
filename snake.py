@@ -37,6 +37,8 @@ def draw_grid():
 
 # --- reset game state ---
 def reset_game():
+    global FPS 
+    FPS = 10
     snake = [[300, 300], [280, 300], [260, 300]]  # start with 3 blocks
     direction = [CELL_SIZE, 0]
     food = spawn_food(snake)
